@@ -19,7 +19,7 @@ function ArticleSection() {
             <div>
               <h2>Ik ben wendy</h2>
 
-              <div style={{ display: "flex", marginTop: "-80px" }}>
+              <div style={{ display: "flex", marginTop: "-50px" }}>
                 <img
                   src={require("../../../../static/Wendy_profile.png")}
                   alt="wendy-profile"
@@ -93,7 +93,7 @@ function ArticleSection() {
           <div id="daan-article">
             <div>
               <h2>Ik ben daan</h2>
-              <div style={{ display: "flex", marginTop: "-80px" }}>
+              <div style={{ display: "flex", marginTop: "-50px" }}>
                 <img
                   src={require("../../../../static/Daan_profile.png")}
                   alt="daan-profile"
