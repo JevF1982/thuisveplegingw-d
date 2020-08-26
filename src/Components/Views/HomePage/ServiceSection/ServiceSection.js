@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { ServiceData } from "./ServiceData";
 import { useMediaQuery } from "../../../Utils/useMediaQuery";
 
@@ -14,7 +14,7 @@ function ServiceSection() {
       border: "1px solid black",
       boxShadow: "1px 1px #000000",
       width: "400px",
-      height: "500px",
+
       color: "#252023",
       margin: "10px",
       height: "auto",

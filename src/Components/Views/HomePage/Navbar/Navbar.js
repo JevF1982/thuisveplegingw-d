@@ -29,7 +29,7 @@ function Navbar() {
         <a
           id="hamburger"
           href="#"
-          class={hamburgerClass}
+          className={hamburgerClass}
           onClick={handleSetClass}
         >
           <span className="hamburger-line"></span>

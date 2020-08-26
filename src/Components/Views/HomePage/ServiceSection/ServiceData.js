@@ -1,5 +1,3 @@
-import React from "react";
-
 export const ServiceData = [
   {
     icon: require("../../../../static/cross_icon.svg"),
