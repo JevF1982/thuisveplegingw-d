@@ -66,11 +66,12 @@ function ContactSection() {
     email: "",
     gsm: "",
     message: "",
+    messageTo: "",
   });
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("submit");
+    console.log(FormValues);
   };
   const handleChange = (e) => {
     setFormValues({ ...FormValues, [e.target.name]: e.target.value });
@@ -98,7 +99,7 @@ function ContactSection() {
         </div>
       </div>
       <div style={contactStyle.formContainer}>
-        <form onSubmit={handleSubmit} style={contactStyle.form}>
+        <form style={contactStyle.form}>
           <div style={contactStyle.inputContainer}>
             <label style={contactStyle.label}>
               Naam:
@@ -152,13 +153,13 @@ function ContactSection() {
               <label>Bericht aan :</label>
             </div>
             <div>
-              <select style={{ borderRadius: "20px" }}>
-                <option selected name="Wendy" value="Wendy">
-                  Wendy
-                </option>
-                <option name="Daan" value="Daan">
-                  Daan
-                </option>
+              <select
+                name="messageTo"
+                style={{ borderRadius: "20px" }}
+                onChange={handleChange}
+              >
+                <option defaultValue="Wendy">Wendy</option>
+                <option value="Daan">Daan</option>
               </select>
             </div>
           </div>
@@ -188,7 +189,12 @@ function ContactSection() {
             </div>
           </div>
           <div style={contactStyle.buttonContainer}>
-            <button type="submit" value="Verstuur" style={contactStyle.button}>
+            <button
+              type="submit"
+              value="Verstuur"
+              style={contactStyle.button}
+              onClick={handleSubmit}
+            >
               Verstuur
             </button>
           </div>

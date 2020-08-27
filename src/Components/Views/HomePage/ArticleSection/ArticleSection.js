@@ -94,7 +94,7 @@ function ArticleSection() {
           </div>
           <div id="daan-article">
             <div>
-              <h2>Ik ben daan</h2>
+              <h2 id="daan-header">Ik ben daan</h2>
               <div style={{ display: "flex", marginTop: "-50px" }}>
                 <img
                   src={require("../../../../static/Daan_profile.png")}

@@ -40,7 +40,7 @@ $font: "Poppins", sans-serif;
   #daan-profilepic-article {
     height: 220px;
     position: relative;
-    top: 50px;
+    top: 33px;
     left: 100px;
   }
 }
@@ -64,6 +64,9 @@ $font: "Poppins", sans-serif;
   #daan-profilepic-article {
     height: 150px !important;
     left: 30px !important;
-    top: 40px !important;
+    top: 24px !important;
+  }
+  #daan-header {
+    margin-bottom: 50px;
   }
 }
