@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeroSection.scss";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function HeroSection() {
   return (
@@ -10,9 +11,11 @@ function HeroSection() {
           <h3>Voor optimale zorgverlening</h3>
 
           <div className="btns">
-            <button className="contact-btn">
-              <span>Neem Contact Op</span>{" "}
-            </button>
+            <AnchorLink href="#contact">
+              <button className="contact-btn">
+                <span>Neem Contact Op</span>{" "}
+              </button>
+            </AnchorLink>
             <div style={{ marginTop: "19px" }}>
               <a href="https://www.facebook.com/Thuisverpleging-Wendy-Daan-411645339393124/?ref=page_internal">
                 <img
