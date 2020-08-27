@@ -17,8 +17,8 @@ export const ServiceData = [
     icon: require("../../../../static/money.svg"),
     header: "Derdebetalersregeling",
     paragraph1:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt necessitatibus doloribus tempora modi eum cupiditate suscipit quidem voluptatem ut, consectetur eaque dolores quae provident ducimus autemobcaecati aspernatur similique reprehenderit .",
+      " Lorem ipsum dolor sit amet consectetur , consectetur eaque dolores quae provident ducimus autemobcaecati aspernatur similique reprehenderit .",
     paragraph2:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt necessitatibus doloribus tempora modi eum cupiditate suscipit quidem voluptatem ut, consectetur eaque dolores quae provident ducimus autemobcaecati aspernatur similique reprehenderit .",
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. consectetur eaque dolores quae provident ducimus autemobcaecati aspernatur similique reprehenderit .",
   },
 ];

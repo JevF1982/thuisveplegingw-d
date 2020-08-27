@@ -14,6 +14,7 @@ function ArticleSection() {
 
       <section id="about-us-article">
         <h1 id="header-article">Wie zijn wij...</h1>
+        <a id="aboutus"></a>
         <div id="about-us-article-container">
           <div id="wendy-article">
             <div>
@@ -59,13 +60,7 @@ function ArticleSection() {
                     }}
                     alt="email-icon"
                   ></img>
-                  <span
-                    style={{
-                      display: "inline-block",
-                      position: "relative",
-                      top: "-7px",
-                    }}
-                  >
+                  <span className="email-article">
                     wf.thuisverpleging@gmail.com
                   </span>
                 </div>
@@ -131,13 +126,7 @@ function ArticleSection() {
                     }}
                     alt="email-icon"
                   ></img>
-                  <span
-                    style={{
-                      display: "inline-block",
-                      position: "relative",
-                      top: "-7px",
-                    }}
-                  >
+                  <span className="email-article">
                     dc.thuisverpleging@gmail.com
                   </span>
                 </div>

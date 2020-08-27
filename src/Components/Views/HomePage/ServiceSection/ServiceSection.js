@@ -33,6 +33,7 @@ function ServiceSection() {
 
   return (
     <div style={{ marginTop: "40px" }}>
+      <a id="service"></a>
       <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
         <h1 style={{ color: "#32adaf" }}>Service</h1>
       </div>

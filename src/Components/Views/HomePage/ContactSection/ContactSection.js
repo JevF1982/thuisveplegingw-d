@@ -80,6 +80,7 @@ function ContactSection() {
 
   return (
     <div style={contactStyle.container(isRowBased)}>
+      <a id="contact"></a>
       <div style={contactStyle.header}>
         <h1>Neem contact op</h1>
         <h4

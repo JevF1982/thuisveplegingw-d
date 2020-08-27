@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, Component } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import ScrollArrow from "../../../Utils/ScrollArrow";
 
 import "./Navbar.scss";
 
@@ -39,19 +41,25 @@ function Navbar() {
         <div className={navlinksClass}>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <AnchorLink href="#home">Home</AnchorLink>
             </li>
             <li>
               {" "}
-              <a href="/">Over Ons</a>
+              <AnchorLink href="#aboutus">Over Ons</AnchorLink>
             </li>
             <li>
               {" "}
-              <a href="/">Contact</a>
+              <AnchorLink href="#service">Service</AnchorLink>
+            </li>
+            <li>
+              {" "}
+              <AnchorLink href="#contact">Contact</AnchorLink>
             </li>
           </ul>
         </div>
       </nav>
+      <a id="home"></a>
+      <ScrollArrow />
     </div>
   );
 }

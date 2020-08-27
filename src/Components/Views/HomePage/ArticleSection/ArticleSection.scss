@@ -44,6 +44,11 @@ $font: "Poppins", sans-serif;
     left: 100px;
   }
 }
+span.email-article {
+  display: inline-block;
+  position: relative;
+  top: -7px;
+}
 
 @media (max-width: 950px) {
   #about-us-article-container {
@@ -68,5 +73,9 @@ $font: "Poppins", sans-serif;
   }
   #daan-header {
     margin-bottom: 50px;
+  }
+
+  .email-article {
+    font-size: 11px;
   }
 }
