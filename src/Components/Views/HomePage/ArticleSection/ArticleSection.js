@@ -34,6 +34,7 @@ function ArticleSection() {
                   color: "white",
                   marginRight: "20px",
                   marginTop: "36px",
+                  minHeight: "600px",
                 }}
               >
                 <p>
@@ -101,6 +102,7 @@ function ArticleSection() {
                   backgroundColor: "#252023",
                   padding: "50px",
                   color: "white",
+                  minHeight: "600px",
                 }}
               >
                 <p>
