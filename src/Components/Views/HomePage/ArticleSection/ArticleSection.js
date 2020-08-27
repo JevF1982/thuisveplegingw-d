@@ -37,7 +37,6 @@ function ArticleSection() {
                 }}
               >
                 <p>
-                  Mijn naam is Wendy Faust. Ik ben 39 jaar en woon in Termien.
                   Ik ben als verpleegkundige afgestudeerd in 2002 en ben dan ook
                   beginnen werken in het Ziekenhuis Oost Limburg.
                   <br />
@@ -105,8 +104,7 @@ function ArticleSection() {
                 }}
               >
                 <p>
-                  Ik ben Daan Claes. Ik ben 21 jaar en woon in Boxbergheide. Ik
-                  heb verpleegkunde gestudeerd aan hogeschool UCLL. <br />{" "}
+                  Ik heb verpleegkunde gestudeerd aan hogeschool UCLL. <br />{" "}
                   <br /> Nadat ik afgestudeerd ben, heb ik een tijdje gewerkt
                   bij Het Wit-Gele Kruis waar ik eerder al werkte als student.
                   Hier heb ik veel ervaring opgedaan binnen de thuisverpleging.{" "}
